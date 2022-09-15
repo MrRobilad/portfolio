@@ -255,7 +255,7 @@ html {
 /* About Section Styling  */
 
 #about{
-  background-image: url(/images/backg5.jpg);
+  background-image: url(backg5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -325,7 +325,7 @@ html {
 
 #services {
   color: #A9ADB8;
-  background-image: url(/images/pa.png);
+  background-image: url(pa.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +441,7 @@ html {
 
 #skills {
   color: #6e6e70;
-  background-image: url(/images/pa1.jpg);
+  background-image: url(pa1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -552,7 +552,7 @@ html {
 
 #projects {
   color: #6e6e70;
-  background-image: url(/images/pa.png);
+  background-image: url(pa.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -612,7 +612,7 @@ html {
 
 #contact {
   color: #6e6e70;
-  background-image: url(/images/pa1.jpg);
+  background-image: url(pa1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
