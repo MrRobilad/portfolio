@@ -150,58 +150,30 @@ html {
   color: #FEC544;
 }
 
-@media only screen and (max-width: 390px) {
- .showcase {
-  width: 280%;
-  height: 100vh;
- }
- .showcase-img img{
-  position: absolute;
-  bottom: 0px;
-  left: 450px;
-  width: 50px;
-  height: 10%;
-  opacity: 0.7;
-  overflow: hidden;
-  animation: updown 3s linear infinite;
+@media (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 30px;
+    right: 100px;
+  }
+  .navbar .logo {
+    position: fixed;
+    color: #FEC544;
+    font-size: 30px;
+    top: 20px;
+    left: 30px;
+  }
+  .navbar ul li {
+    list-style: none;
+    display: list-item;
+    margin: 0 40px;
+    font-size: 15px;
+    padding-top: 10px;
+  }
 }
-.about .about-content .left img {
-  height: 450px;
-  width: 450px;
-  object-fit: cover;
-  border-radius: 50%;
-  opacity: 45%;
-  margin-bottom: 700px;
-  margin-left: -20px;
-}
-.btn-mds{
-  display: inline-block;
-  position: absolute;
-  background: #FEC544;
-  color: #08080A;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 8px 36px;
-  margin-top: 10px;
-  margin-bottom: 220px;
-  border-radius: 50px;
-  border: 2px solid #FEC544;
-  transition: all 0.3s ease;
-}
-.btn-md{
-  display: inline-block;
-  background: #FEC544;
-  color: #08080A;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 8px 36px;
-  margin-top: 10px;
-  margin-bottom: 220px;
-  border-radius: 50px;
-  border: 2px solid #FEC544;
-  transition: all 0.3s ease;
-}
-}
+
+
 
 /* .showcase content Section  */
 
